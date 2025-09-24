@@ -23,17 +23,12 @@
     margin-bottom: 180px;
 }
 
-.about {
-    padding: 0 50px;
-    margin-bottom: 180px;
-}
-
 .header__links-list {
     display: flex;
     gap: 32px;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0; 
 }
 
 .header__links-list-item:not(:last-child)::after {
@@ -181,6 +176,8 @@
 
 /* Об аукционе */
 .about {
+    padding: 0 50px;
+    margin-bottom: 180px;
     display: grid;
     grid-template-columns: 430px 1fr;
     gap: 25px;
